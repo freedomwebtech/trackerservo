@@ -36,7 +36,7 @@ def track(img):
         cx = (x + x + w) // 2
         cy = (y + y + h) // 2
         cv2.circle(img,(cx,cy),5,(0,0,255),-1)
-        cv2.line(frame,(cx,0),(cx,480),(0,0,255),2)
+        cv2.line(img,(cx,0),(cx,480),(0,0,255),2)
         a=int(cx)//65
     
 
